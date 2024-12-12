@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom global styles */
+body {
+  @apply bg-gray-100 text-gray-900;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  @apply text-blue-600 hover:underline;
+  text-decoration: none;
+}
+
+button {
+  @apply px-4 py-2 rounded-md font-medium transition;
+}
